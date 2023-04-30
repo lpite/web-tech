@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 666px;
+    margin: 0 auto;
+    font-weight: 900;
+    font-size: 19pt;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+caption {
+    font-size: 16pt;
+}
+
+thead {
+    height: 40px;
+}
+thead th:first-child{
+    width: 30px;
+}
+
+thead th:nth-child(2){
+    width: 100px;
+}
+
+thead th:nth-child(3){
+    width: 100px;
+}
+
+thead th:last-child{
+    width: 100px;
+}
+
+th,
+td {
+    height: 30px;
+    border: 1px solid;
+}
