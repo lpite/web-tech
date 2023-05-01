@@ -1,25 +1,27 @@
+
+body{
+    margin: 0;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    height: 50px;
+    margin: 0;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100% - 50px);
+    max-width: 880px;
+    margin: 0 auto;
+
+}
 article {
     background-color: orange;
-    display: inline-block;
-    padding: 15px;
-    margin: 10px;
-    border: 1px solid;
-    border-radius: 10px;
-    max-width: 300px;
-}
-
-article::before {
-    content: "";
+    height: 50%;
+    width: 50%;
+    border: 2px solid;
     display: block;
-    height: 20px;
-    width: 100px;
-    background-color: rgba(0, 0, 0, 0.6);
-    margin-top: -24px;
-    margin-left: calc(50% - 50px);
-    border-radius: 4px 4px 0 0;
-}
-
-h2 {
-    text-align: center;
-    text-shadow: 0 -2px white, 0 2px darkgray;
+    box-sizing: border-box;
+    padding: 15px;
 }
